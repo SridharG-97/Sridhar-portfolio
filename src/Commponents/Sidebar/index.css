@@ -1,0 +1,59 @@
+.Container {
+   display: flex;
+   flex-direction: column;
+   position: fixed;
+   text-align: center;
+   justify-content: center;
+   height: 100vh;
+   background-color: thistle;
+}
+.logo{
+   display: flex;
+   flex-direction: column;
+   flex: 0.2;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   
+}
+.logo>h1{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-size: 18px;
+}
+.logo>img{
+   border-radius:30% 30% 20% 50%;
+   width: 30%;
+   justify-content: center;
+
+   
+
+}
+.logo>h1{
+
+   text-align: center;
+   
+}
+.Content-side{
+display: flex;
+justify-content: center;
+flex: 0.6;
+flex-direction: column;
+}
+.Content-side>a{
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
+   justify-content: center;
+   text-align: center;
+   font-size: 15px;
+   font-weight: bolder;
+}
+.Content-side>a>h3{
+   transition: transform 200ms ease-in-out ;
+}
+.Content-side>a>h3:hover {
+   transform: scale(1.2);
+   color: rgb(173, 73, 73);
+}

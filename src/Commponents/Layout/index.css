@@ -1,0 +1,9 @@
+.Containers{
+   display: flex;
+   flex-direction: column;
+}
+.Page-content {
+   display: flex;
+   flex-direction: column;
+   background-color: teal;
+}

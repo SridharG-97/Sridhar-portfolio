@@ -1,0 +1,16 @@
+.aboutE {
+   color: rgb(216, 218, 218);
+   height: 100vh;
+   width: 100%;
+   position: relative;
+  
+   background-color: #48737a;
+}
+.about {
+   display: flex;
+   flex-direction: column;
+height: 100vh;
+justify-content: center;
+font-size: 10px;
+
+}
