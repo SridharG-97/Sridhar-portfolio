@@ -4,7 +4,79 @@
    width: 100%;
    display: flex;
    justify-content: center;
+   flex-direction: column;
+}
+.skill-title{
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   flex: 0.2;
+}
+.skillpage{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex: 1;
+}
+
+.skill-Icon{
+   flex: 0.3;
+   justify-content: center;
+
+}
+.skill-Container-slider1{
+   max-width: 30vw;
+   justify-content:center;
    text-align: center;
-   align-items: center;
-   
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+
+}
+.skill-Container-slider1> .MuiLinearProgress-colorPrimary {
+   background-color: rgb(180, 104, 95);
+   justify-content: center;
+
+}
+.skill-Container-slider2{
+   max-width: 30vw;
+   justify-content:center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+
+}
+.skill-Container-slider2> .MuiLinearProgress-colorPrimary {
+   background-color: rgb(180, 104, 95);
+   justify-content: center;
+
+}
+.skill-Container-slider3{
+   max-width: 30vw;
+   justify-content:center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+
+}
+.skill-Container-slider3> .MuiLinearProgress-colorPrimary {
+   background-color: rgb(180, 104, 95);
+   justify-content: center;
+
+}
+.skill-Container-slider4{
+   max-width: 30vw;
+   justify-content:center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+
+}
+.skill-Container-slider4> .MuiLinearProgress-colorPrimary {
+   background-color: rgb(180, 104, 95);
+   justify-content: center;
+
 }

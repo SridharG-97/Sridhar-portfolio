@@ -20,6 +20,7 @@ function App() {
         <div className="aboutM">
           <About/>
         </div>
+        <hr/>
         <div className="skillsM">
           <Skills/>
         </div>
