@@ -10,7 +10,7 @@ function index({children}) {
             <div className="homepage">
            
 
-               <h1>Hai. I am Sridhar</h1>
+               <h1>Hai. I am <span> Sridhar</span></h1>
                <p>I am a Web-Developer</p>
             </div>
            

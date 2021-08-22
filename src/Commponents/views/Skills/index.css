@@ -1,82 +1,286 @@
 .skillE{
-   background-color: #5e6182;
-   height: 100%;
+   /* background-image: url(../../assets/skills.jpg); */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+background-color: #5d6a80;   height: 100%;
    width: 100%;
    display: flex;
    justify-content: center;
    flex-direction: column;
 }
-.skill-title{
+ .skill-title{
    justify-content: center;
    display: flex;
    flex-direction: column;
    flex: 0.2;
+   color: burlywood;
+
 }
 .skillpage{
    display: flex;
-   flex-direction: row;
    justify-content: center;
+   flex-direction:row;
    flex: 1;
 }
-
-.skill-Icon{
-   flex: 0.3;
-   justify-content: center;
-
-}
-.skill-Container-slider1{
-   max-width: 30vw;
-   justify-content:center;
-   text-align: center;
+.skill-Html{
    display: flex;
-   flex-direction: column;
-   flex: 1;
+   justify-content: center;
+   flex: 0.25;
+   padding-right: 10px;
+}
+.html-logo{
+   display: flex;
+   flex-direction: row;
+   padding-left: 10px;
+   
+}
+.title{
+   justify-content: center;
+   font-size: 25px;
 
 }
-.skill-Container-slider1> .MuiLinearProgress-colorPrimary {
-   background-color: rgb(180, 104, 95);
+
+.percent4{
+   font-size: 25px;
+   flex: 0.1;
+   
+}
+
+
+.skill-Container-slider1{
+  display: flex;
+  flex-direction: row;
+   width:50%;
+   align-items: center;
+   padding-left: 15px;
+}
+.linebar{
    justify-content: center;
 
+   flex-direction: row;
+   width: 100%;
+   padding-right: 30px;
+   
+   
+}
+.percent{
+font-size: 25px;
+display: flex;
+}
+
+
+.CSS-logo{
+   display: flex;
+   flex-direction: row;
+   
+}
+.skill-css{
+   display: flex;
+   justify-content: center;
+   flex: 0.25;
+   padding-right: 35px;
+
+}
+.skill-react{
+   display: flex;
+   justify-content: center;
+   flex: 0.25;
 }
 .skill-Container-slider2{
-   max-width: 30vw;
-   justify-content:center;
-   text-align: center;
    display: flex;
-   flex-direction: column;
-   flex: 1;
-
+   flex-direction: row;
+    width:50%;
+    align-items: center;
+    padding-left: 35px;
 }
-.skill-Container-slider2> .MuiLinearProgress-colorPrimary {
-   background-color: rgb(180, 104, 95);
+.linebar2{
    justify-content: center;
 
+   flex-direction: row;
+   width: 100%;
 }
-.skill-Container-slider3{
-   max-width: 30vw;
-   justify-content:center;
-   text-align: center;
+.percent2{
+   font-size: 25px;
    display: flex;
-   flex-direction: column;
-   flex: 1;
-
+   
 }
-.skill-Container-slider3> .MuiLinearProgress-colorPrimary {
-   background-color: rgb(180, 104, 95);
-   justify-content: center;
+.percent2>p{
+   padding-left: 25px;
 
 }
 .skill-Container-slider4{
-   max-width: 30vw;
-   justify-content:center;
-   text-align: center;
    display: flex;
-   flex-direction: column;
-   flex: 1;
+   flex-direction: row;
+    width:50%;
+    align-items: center;
+    padding-left: 50px;
+}
+.linebar4{
+   justify-content: center;
+
+   flex-direction: row;
+   width: 100%;
+}
+.percent4{
+   font-size: 25px;
+   display: flex;
+   
+}
+.percent4>p{
+   padding-left: 25px;
 
 }
-.skill-Container-slider4> .MuiLinearProgress-colorPrimary {
-   background-color: rgb(180, 104, 95);
+.title4{
    justify-content: center;
+   font-size: 20px;
+}
+.title1{
+   font-size: 18px;
+   justify-content: center;
+
+
+}
+.title2{
+   font-size: 18px;
+   justify-content: center;
+
+
+}
+.title3{
+   font-size: 18px;
+   justify-content: center;
+
+
+}
+.title4{
+   font-size: 18px;
+
+}
+
+
+
+
+@media screen and (max-height: 780px) {
+   .skill-Html{
+      display: flex;
+      justify-content: center;
+      flex: 0.25;
+   }
+   .html-logo{
+      display: flex;
+      flex-direction: row;
+      
+   }
+   .Icons-Html{
+      font-size: 10px;
+   }
+   .title1{
+      font-size: 18px;
+
+   }
+   .title2{
+      font-size: 18px;
+  
+   }
+   .title3{
+      font-size: 18px;
+  
+   }
+   .title4{
+      font-size: 18px;
+  
+   }
+   
+  
+   .percent4{
+      font-size: 20px;
+      flex: 0.2;
+      
+   }
+   
+   
+   .skill-Container-slider1{
+     display: flex;
+     flex-direction: row;
+      width:50%;
+      align-items: center;
+      padding-left: 15px;
+   }
+   .linebar{
+      justify-content: center;
+   
+      flex-direction: row;
+      width: 100%;
+      padding-right: 30px;
+      
+   }
+   .percent{
+   font-size: 25px;
+   display: flex;
+   }
+   
+   
+   .CSS-logo{
+      display: flex;
+      flex-direction: row;
+      
+   }
+   .skill-css{
+      display: flex;
+      justify-content: center;
+      flex: 0.25;
+      padding-right: 35px;
+   
+   }
+   .skill-react{
+      display: flex;
+      justify-content: center;
+      flex: 0.25;
+   }
+   .skill-Container-slider2{
+      display: flex;
+      flex-direction: row;
+       width:50%;
+       align-items: center;
+       padding-left: 35px;
+   }
+   .linebar2{
+      justify-content: center;
+   
+      flex-direction: row;
+      width: 100%;
+   }
+   .percent2{
+      font-size: 25px;
+      display: flex;
+      
+   }
+   .percent2>h4{
+      padding-left: 25px;
+   
+   }
+   .skill-Container-slider4{
+      display: flex;
+      flex-direction: row;
+       width:50%;
+       align-items: center;
+       padding-left: 50px;
+   }
+   .linebar4{
+      justify-content: center;
+   
+      flex-direction: row;
+      width: 100%;
+   }
+   .percent4{
+      font-size: 25px;
+      display: flex;
+      
+   }
+   .percent4>h4{
+      padding-left: 25px;
+   
+   }
 
 }

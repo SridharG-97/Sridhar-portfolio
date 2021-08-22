@@ -7,25 +7,24 @@ import Home from "../views/Home/index";
 
 function index() {
   return (
-    <div className="Container"  sm="6">
+    <div className="Container"  >
       <div className="logo">
         <img src={logo} alt="image" />
         <h1>Sridhar.G</h1>
-      <b>   <hr/></b>
       </div>
    
    
       <div className="Content-side">
-        <Link to="home" smooth={true} duration={500}>
+        <Link to="home" smooth={true} duration={1200}>
            <h3>Home</h3>
         </Link>
-        <Link to="about" smooth={true} duration={500}>
+        <Link to="about" smooth={true} duration={1200}>
            <h3>About Me</h3>
         </Link>
-        <Link to="skills" smooth={true} duration={500}>
+        <Link to="skills" smooth={true} duration={1200}>
            <h3>Skills</h3>
         </Link>
-        <Link to="contact" smooth={true} duration={500}>
+        <Link to="contact" smooth={true} duration={1200}>
            <h3>Contact </h3>
         </Link>
       </div>
