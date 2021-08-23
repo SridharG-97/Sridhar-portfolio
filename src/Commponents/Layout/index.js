@@ -1,10 +1,11 @@
 import React from "react";
+
 import { Card, Button } from "react-bootstrap";
 import { FaReact } from "react-icons/fa";
 
 function index() {
   return (
-    <div className="card">
+    <div className="cardlay">
       <Card style={{ width: "90vw", display: "flex", flexDirection: "row",justifyContent:"center"}}>
         <Card.Body
           style={{ display: "flex", flexDirection: "row", fontSize: "20px" }}

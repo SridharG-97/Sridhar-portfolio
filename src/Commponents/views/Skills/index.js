@@ -5,7 +5,9 @@ import LinearProgressWithLabel from "@material-ui/core/LinearProgress";
 import { FaReact } from "react-icons/fa";
 import { SiHtml5, SiCss3 } from "react-icons/si";
 import { DiJavascript } from "react-icons/di";
-import Layout from "../../Layout/index"
+import { Card } from "react-bootstrap";
+
+import Layout from "../../Layout/index";
 
 function index() {
   return (
@@ -13,24 +15,33 @@ function index() {
       <div className="skill-title">
         <h1>Skill Set</h1>
       </div>
+
       <div className="skillsetM">
-        <div className="skillpage">
-          <div className="skill-Html">
-            <div className="html-logo">
-              <SiHtml5 className="Icons-Html" style={{ fontSize: "50px" }} />
-            </div>
-            <div className="title1">
-              <p> HTML</p>
-            </div>
-          </div>
-          <div className="skill-Container-slider2">
-            <div className="linebar2">
-              <LinearProgressWithLabel variant="determinate" value={90} />
-            </div>
-            <div className="percent2">
-              <p>90%</p>
-            </div>
-          </div>
+        <div className="skillpage1">
+          <Card className="cardskill1">
+            <Card.Body className="cardBody1">
+              <div className="skill-Html">
+                <div className="html-logo">
+                  <SiHtml5
+                    className="Icons-Html"
+                    style={{ fontSize: "50px" }}
+                  />
+                </div>
+
+                <div className="title1">
+                  <p> HTML</p>
+                </div>
+              </div>
+              <div className="skill-Container-slider5">
+                <div className="linebar2">
+                  <LinearProgressWithLabel variant="determinate" value={90} />
+                </div>
+                <div className="percent2">
+                  <p>90%</p>
+                </div>
+              </div>
+            </Card.Body>
+          </Card>
         </div>
 
         {/*  css */}
@@ -83,7 +94,6 @@ function index() {
           <div className="skill-react">
             <div className="CSS-logo">
               <FaReact className="Icons-Css" style={{ fontSize: "50px" }} />
-              
             </div>
             <div className="title4">
               <p> React</p>
@@ -98,10 +108,7 @@ function index() {
             </div>
           </div>
         </div>
-        
       </div>
-
-
     </Element>
   );
 }
