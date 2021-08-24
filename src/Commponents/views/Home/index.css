@@ -2,10 +2,9 @@
    background-color: #5d6a80;
    height: 100%;
    width: 100%;
-   background-image: url(../../assets/home7.jpg);
+   background-image: url(../../assets/home3.jpeg);
    background-position: center;
    background-repeat: no-repeat;
-
    background-size: cover;
  display: flex;
  object-fit: contain;
@@ -36,4 +35,21 @@
 
    font-size: 20px;
    font-weight: 500;
+}
+
+@media screen and (min-width:360px)and (max-width: 1024px){
+   .homeE{
+      background-color: #5d6a80;
+      height: 100%;
+      width: 100vw;
+      background-position: center;
+      background-repeat: no-repeat;
+   background-attachment:fixed;
+      background-size: cover;
+   
+    display: flex;
+    
+   
+   }
+
 }

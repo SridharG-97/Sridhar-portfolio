@@ -1,13 +1,12 @@
 import React from 'react';
 import "./index.css";
 import {Element} from "react-scroll";
-import aboutImg from "../../assets/home.jpg"
+import img2 from "../../assets/home2.jpg"
 
 
 function index({children}) {
    return (
          <Element id="home" className="homeE" >
-            
             <div className="homepage">
  
 

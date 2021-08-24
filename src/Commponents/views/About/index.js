@@ -8,7 +8,7 @@ function index() {
   return (
     <Element id="about" className="aboutE">
       <div className="cards12">
-        <Card className="card1">
+        <Card className="card1" sm="6">
           <Card.Img
             variant="top"
             src={abtpro}
@@ -16,11 +16,11 @@ function index() {
             width="100%"
           />
         </Card>
-        <Card className="card2 "style={{ width: "18rem"}}>
+        <Card className="card2 "style={{ width: "18rem"}} sm="6">
         <Card.Title className="AboutMe">About Me</Card.Title>
 
           <Card.Body>
-            <Card.Subtitle className="CD-title mb-2 text-muted ">
+            <Card.Subtitle className="CD-title mb-2  ">
               Hello! I am <u style={{color:"white"}}>Sridhar</u> from Palladam, TamilNadu.
             </Card.Subtitle>
             <Card.Text className="CD-para">

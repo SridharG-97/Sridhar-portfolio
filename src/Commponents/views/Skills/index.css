@@ -1,8 +1,5 @@
 .skillE{
-   /* background-image: url(../../assets/skills.jpg); */
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+  
    background-color: #89Abe3ff;   
   height: 100%;
    width: 100%;
@@ -15,22 +12,29 @@
    display: flex;
    flex-direction: column;
    flex: 0.2;
-   color: burlywood;
+   color:white;
+   margin-bottom: 35px;
 
 }
-.skillpage{
+
+.skillsetM{
    display: flex;
-   justify-content: center;
-   flex-direction:row;
-   flex: 1;
+   flex-direction: column;
+   justify-content: space-evenly;
 }
-
- /* html */
+.cardskill1:hover{
+   transition: all 0.1s ease-out;
+   box-shadow: 10px 0px 20px 10px rgba(30, 83, 30, 20);
+   top: -10px;
+   border: 1px solid #cccccc;
+   background-color: white;
+}
 .skillpage1{
    display: flex;
    justify-content: center;
-   flex-direction:row;
-   flex: 1;
+   flex-direction:column;
+   align-items: center;
+   
 }
 .cardskill1{
    display: flex;
@@ -43,288 +47,138 @@
    background-color: white;
    border-radius: 15px;
    
-   }
-.cardBody1{
+ }
+ .cardBody1{
    display: flex;
-   flex-direction: row;width: 100%;
-   padding: 10px;
-}
-.linebar1{
-   justify-content: center;
-background-color: teal;
    flex-direction: row;
    width: 100%;
-   padding-right: 30px;
    
 }
-.skill-Container-slider5{
-   display: flex;
-   flex-direction: row;
-    width:50%;
-    align-items: center;
-    padding-left: 15px;
-    flex: 8;
- }
 .skill-Html{
    display: flex;
    justify-content: center;
    align-items: center;
    flex: 1;
-   padding-right: 10px;
-   background-color: teal;
+   background-color: blue;
+   border-radius: 15px 0 0 15px;
+
 }
 .html-logo{
    display: flex;
    flex-direction: row;
-   padding-left: 10px;
    
 }
-.title{
-   justify-content: center;
+.title1{
    font-size: 25px;
-
+   color: white;
 }
-
-.percent4{
-   font-size: 25px;
-   flex: 0.1;
-   
+.html-logo{
+   display: flex;
+   flex-direction: row;
 }
-
-
 .skill-Container-slider1{
-  display: flex;
-  flex-direction: row;
-   width:50%;
-   align-items: center;
-   padding-left: 15px;
-}
-.linebar{
-   justify-content: center;
+   display: flex;
+   flex-direction: row;
+    width:50%;
+    align-items: center;
+    flex: 4;
+    padding-left: 15px;
+ }
 
+ .linebar{
+   justify-content: center;
    flex-direction: row;
    width: 100%;
-   padding-right: 30px;
-   
+   padding-right: 20px;
    
 }
 .percent{
-font-size: 25px;
-display: flex;
-}
-
-
-.CSS-logo{
-   display: flex;
-   flex-direction: row;
-   
-}
-.skill-css{
-   display: flex;
-   justify-content: center;
-   flex: 0.25;
-   padding-right: 35px;
-
-}
-.skill-react{
-   display: flex;
-   justify-content: center;
-   flex: 0.25;
-}
-.skill-Container-slider2{
-   display: flex;
-   flex-direction: row;
-    width:50%;
-    align-items: center;
-    padding-left: 35px;
-}
-.linebar2{
-   justify-content: center;
-background-color: teal;
-   flex-direction: row;
-   width: 100%;
-}
-.percent2{
    font-size: 25px;
-   display: flex;
+   flex: 0.1;
+   padding-right: 15px;
    
 }
-.percent2>p{
-   padding-left: 25px;
+
+/* CSS-JS */
+.skillpage2{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction:column;
+   padding-top: 25px;
+}
+.skill-JS{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: 1;
+   background-color: blue;
+   border-radius: 15px 0 0 15px;
 
 }
-.skill-Container-slider4{
+.JS-logo{
    display: flex;
    flex-direction: row;
-    width:50%;
-    align-items: center;
-    padding-left: 50px;
-}
-.linebar4{
-   justify-content: center;
-
-   flex-direction: row;
-   width: 100%;
-}
-.percent4{
-   font-size: 25px;
-   display: flex;
-   
-}
-.percent4>p{
-   padding-left: 25px;
-
-}
-.title4{
-   justify-content: center;
-   font-size: 20px;
-}
-.title1{
-   font-size: 18px;
-   justify-content: center;
-
-
 }
 .title2{
-   font-size: 18px;
-   justify-content: center;
-
-
-}
-.title3{
-   font-size: 18px;
-   justify-content: center;
-
-
-}
-.title4{
-   font-size: 18px;
-
+   font-size: 25px;
+   color: white;
 }
 
-
-
-
-@media screen and (max-height: 780px) {
+@media screen and (min-width:360px)and (max-width: 680px){
+   .skill-Container-slider1{
+      display: flex;
+      flex-direction: row;
+       width:50%;
+       align-items: center;
+       flex: 4;
+       padding-left: 15px;
+    }
+   .skill-JS{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      background-color: blue;
+      border-radius: 15px 0 0 15px;
+      font-size: 12px;
+   
+   }
    .skill-Html{
       display: flex;
       justify-content: center;
-      flex: 0.25;
-   }
-   .html-logo{
-      display: flex;
-      flex-direction: row;
-      
-   }
-   .Icons-Html{
-      font-size: 10px;
+      align-items: center;
+      flex: 4;
+      background-color: blue;
+      border-radius: 15px 0 0 15px;
+      font-size: 12px;
+   
    }
    .title1{
-      font-size: 18px;
-
-   }
-   .title2{
-      font-size: 18px;
-  
-   }
-   .title3{
-      font-size: 18px;
-  
-   }
-   .title4{
-      font-size: 18px;
-  
-   }
-   
-  
-   .percent4{
-      font-size: 20px;
-      flex: 0.2;
-      
-   }
-   
-   
-   .skill-Container-slider1{
-     display: flex;
-     flex-direction: row;
-      width:50%;
-      align-items: center;
-      padding-left: 15px;
+      font-size: 12px;
+      color: white;
    }
    .linebar{
       justify-content: center;
-   
       flex-direction: row;
       width: 100%;
-      padding-right: 30px;
       
+
+      
+      
+      
+   }
+   .bar1{
+      width: 100%;
+      height: 25px;
+      color: lightgreen;
    }
    .percent{
-   font-size: 25px;
-   display: flex;
-   }
-   
-   
-   .CSS-logo{
-      display: flex;
-      flex-direction: row;
+      font-size: 12px;
+      flex: 0.1;
+      padding-right: 15px;
       
    }
-   .skill-css{
-      display: flex;
-      justify-content: center;
-      flex: 0.25;
-      padding-right: 35px;
-   
-   }
-   .skill-react{
-      display: flex;
-      justify-content: center;
-      flex: 0.25;
-   }
-   .skill-Container-slider2{
-      display: flex;
-      flex-direction: row;
-       width:50%;
-       align-items: center;
-       padding-left: 35px;
-   }
-   .linebar2{
-      justify-content: center;
-   
-      flex-direction: row;
-      width: 100%;
-   }
-   .percent2{
-      font-size: 25px;
-      display: flex;
-      
-   }
-   .percent2>h4{
-      padding-left: 25px;
-   
-   }
-   .skill-Container-slider4{
-      display: flex;
-      flex-direction: row;
-       width:50%;
-       align-items: center;
-       padding-left: 50px;
-   }
-   .linebar4{
-      justify-content: center;
-   
-      flex-direction: row;
-      width: 100%;
-   }
-   .percent4{
-      font-size: 25px;
-      display: flex;
-      
-   }
-   .percent4>h4{
-      padding-left: 25px;
-   
-   }
+
 
 }

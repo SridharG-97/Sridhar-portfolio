@@ -1,22 +1,62 @@
-.Contact{
+.Contact {
   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-background-color: #89Abe3ff;   height: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
-   height: 100vh;
-   width: 100%;
-   
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #89abe3ff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  height: 100vh;
+  width: 100%;
 }
-.cardBOOT{
-  border-color: burlywood;
- width: 50rem;
- justify-content: center;
+.cardBOOT {
+  border-color: blue;
+  width: 60%;
+  border-style: double;
+  height: 50%;
+  justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+.linkedin:hover {
+  font-size: 35px;
+  color: #0077b5;
+  box-shadow: linear-gradient(0deg, rgb(116, 55, 55), transparent 50%) bottom;
+}
+.facebook:hover {
+  font-size: 35px;
+  color: #3b5998;
+  box-shadow: linear-gradient(0deg, rgb(116, 55, 55), transparent 50%) bottom;
+}
+.insta:hover {
+  font-size: 35px;
+  color: #bc2a8d;
+  box-shadow: linear-gradient(0deg, rgb(116, 55, 55), transparent 50%) bottom;
+}
+
+@media only screen and (max-width: 600px) {
+  .mail-git {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+  }
+  .mail-git > p {
+    font-size: 12px;
+  }
+  .cardBOOT {
+    border-color: blue;
+    width: 80%;
+    border-style: double;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 }

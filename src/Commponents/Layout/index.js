@@ -1,12 +1,12 @@
 import React from "react";
-
+import "./index.css"
 import { Card, Button } from "react-bootstrap";
 import { FaReact } from "react-icons/fa";
 
 function index() {
   return (
     <div className="cardlay">
-      <Card style={{ width: "90vw", display: "flex", flexDirection: "row",justifyContent:"center"}}>
+      <Card style={{ width: "90vw", display: "flex", flexDirection: "row",justifyContent:"center"}} sm="6">
         <Card.Body
           style={{ display: "flex", flexDirection: "row", fontSize: "20px" }}
         >
@@ -18,8 +18,7 @@ function index() {
               display: "flex",
             }}
           >
-            {" "}
-            <FaReact className="Icons-Css" style={{ fontSize: "50px" }} />
+              <FaReact className="Icons-Css" style={{ fontSize: "50px" }} />
             Reactjs :
           </Card.Title>
           <Card.Text style={{ display: "flex", flexDirection: "row", flex: 8 }}>

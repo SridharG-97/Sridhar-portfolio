@@ -2,12 +2,9 @@ import React from "react";
 import "./index.css";
 import { Element } from "react-scroll";
 import LinearProgressWithLabel from "@material-ui/core/LinearProgress";
-import { FaReact } from "react-icons/fa";
-import { SiHtml5, SiCss3 } from "react-icons/si";
-import { DiJavascript } from "react-icons/di";
+import { DiJavascript,DiHtml5,DiCss3,DiReact } from "react-icons/di";
 import { Card } from "react-bootstrap";
 
-import Layout from "../../Layout/index";
 
 function index() {
   return (
@@ -17,14 +14,15 @@ function index() {
       </div>
 
       <div className="skillsetM">
-        <div className="skillpage1">
-          <Card className="cardskill1">
+        {/* html */}
+        <div className="skillpage1" sm="6">
+          <Card className="cardskill1" sm="12">
             <Card.Body className="cardBody1">
               <div className="skill-Html">
                 <div className="html-logo">
-                  <SiHtml5
+                  <DiHtml5
                     className="Icons-Html"
-                    style={{ fontSize: "50px" }}
+                    style={{ fontSize: "50px",color:"white" }}
                   />
                 </div>
 
@@ -32,11 +30,11 @@ function index() {
                   <p> HTML</p>
                 </div>
               </div>
-              <div className="skill-Container-slider5">
-                <div className="linebar2">
-                  <LinearProgressWithLabel variant="determinate" value={90} />
+              <div className="skill-Container-slider1">
+                <div className="linebar">
+                  <LinearProgressWithLabel className="bar1" variant="determinate" value={90} />
                 </div>
-                <div className="percent2">
+                <div className="percent">
                   <p>90%</p>
                 </div>
               </div>
@@ -46,67 +44,88 @@ function index() {
 
         {/*  css */}
 
-        <div className="skillpage">
-          <div className="skill-css">
-            <div className="CSS-logo">
-              <SiCss3 className="Icons-Css" style={{ fontSize: "50px" }} />
-            </div>
-            <div className="title2">
-              <p> CSS</p>
-            </div>
-          </div>
-          <div className="skill-Container-slider1">
-            <div className="linebar">
-              <LinearProgressWithLabel variant="determinate" value={80} />
-            </div>
-            <div className="percent">
-              <p>80%</p>
-            </div>
-          </div>
+        <div className="skillpage2">
+          <Card className="cardskill1">
+            <Card.Body className="cardBody1">
+              <div className="skill-Html">
+                <div className="html-logo">
+                  <DiCss3
+                    className="Icons-Html"
+                    style={{ fontSize: "50px",color:"white" }}
+                  />
+                </div>
+
+                <div className="title1">
+                  <p> CSS</p>
+                </div>
+              </div>
+              <div className="skill-Container-slider1">
+                <div className="linebar">
+                  <LinearProgressWithLabel variant="determinate" value={90} />
+                </div>
+                <div className="percent">
+                  <p>90%</p>
+                </div>
+              </div>
+            </Card.Body>
+          </Card>
         </div>
 
         {/* JAVASCRIPT */}
 
-        <div className="skillpage">
-          <div className="skill-css">
-            <div className="html-logo">
-              <DiJavascript
-                className="Icons-js"
-                style={{ fontSize: "60px", paddingRight: "10px" }}
-              />
-            </div>
-            <div className="title3">
-              <p> Js</p>
-            </div>
-          </div>
-          <div className="skill-Container-slider1">
-            <div className="linebar">
-              <LinearProgressWithLabel variant="determinate" value={70} />
-            </div>
-            <div className="percent">
-              <p>70%</p>
-            </div>
-          </div>
+        <div className="skillpage2">
+          <Card className="cardskill1">
+            <Card.Body className="cardBody1">
+              <div className="skill-Html">
+                <div className="html-logo">
+                  <DiJavascript
+                    className="Icons-Html"
+                    style={{ fontSize: "50px",color:"white" }}
+                  />
+                </div>
+
+                <div className="title1">
+                  <p> JS</p>
+                </div>
+              </div>
+              <div className="skill-Container-slider1">
+                <div className="linebar">
+                  <LinearProgressWithLabel variant="determinate" value={75} />
+                </div>
+                <div className="percent">
+                  <p>75%</p>
+                </div>
+              </div>
+            </Card.Body>
+          </Card>
         </div>
 
         {/*   React */}
-        <div className="skillpage">
-          <div className="skill-react">
-            <div className="CSS-logo">
-              <FaReact className="Icons-Css" style={{ fontSize: "50px" }} />
-            </div>
-            <div className="title4">
-              <p> React</p>
-            </div>
-          </div>
-          <div className="skill-Container-slider4">
-            <div className="linebar4">
-              <LinearProgressWithLabel variant="determinate" value={60} />
-            </div>
-            <div className="percent4">
-              <p>60%</p>
-            </div>
-          </div>
+        <div className="skillpage2">
+          <Card className="cardskill1">
+            <Card.Body className="cardBody1">
+              <div className="skill-Html">
+                <div className="html-logo">
+                  <DiReact
+                    className="Icons-Html"
+                    style={{ fontSize: "50px",color:"white" }}
+                  />
+                </div>
+
+                <div className="title1">
+                  <p> React</p>
+                </div>
+              </div>
+              <div className="skill-Container-slider1">
+                <div className="linebar">
+                  <LinearProgressWithLabel variant="determinate" value={65} />
+                </div>
+                <div className="percent">
+                  <p>65%</p>
+                </div>
+              </div>
+            </Card.Body>
+          </Card>
         </div>
       </div>
     </Element>
