@@ -45,7 +45,7 @@ function index() {
            <Card.Link  className="link1"  style={{justifyContent:"space-around",flex:"0.5",color:"white"}}  href="https://www.linkedin.com/in/sridhar-vip-4751ab20b/ ">
             <FaLinkedin className="linkedin"/>
           </Card.Link>
-          <Card.Link className="link2" style={{display:"flex", marginLeft:"45px", justifyContent:"space-around",flex:"1",color:"white"}} href="#">
+          <Card.Link className="link2" style={{display:"flex", marginLeft:"45px", justifyContent:"space-around",flex:"1",color:"white"}} href="https://github.com/SridharG-97/Sridhar-portfolio">
             <FaGithubSquare  className="github"/>
           </Card.Link>
          
