@@ -10,14 +10,14 @@ function index() {
     <div className="Container"  >
       <div className="logo">
         <img src={logo} alt="image" />
-        <h1>Sridhar.G</h1>
+        <Link to="home" smooth={true} duration={1200}>
+        <h1>Sridhar</h1>
+        </Link>
       </div>
    
    
-      <div className="Content-side">
-        <Link to="home" smooth={true} duration={1200}>
-           <h3>Home</h3>
-        </Link>
+      <div className="Content-side" >
+      
         <Link to="about" smooth={true} duration={1200}>
            <h3>About Me</h3>
         </Link>

@@ -5,32 +5,32 @@ import Home from "./Commponents/views/Home/index";
 import About from "./Commponents/views/About/index";
 import Skills from "./Commponents/views/Skills/index"
 import Layout from "./Commponents/Layout/index";
-import Contant from "./Commponents/views/Contact/index"
+import Contant from "./Commponents/views/Contact/index";
+import { Container } from "react-bootstrap";
+
 
 function App() {
   return (
     <div className="App">
       <div className="Mside">
-        <Sidebar/>
+        <Sidebar />
       </div>
       <div className="Content">
         <div className="homeM">
-        <Home/>
+          <Home />
         </div>
         <div className="aboutM">
-          <About/>
-        </div> 
-      <div className="skillsM">
-          <Skills/>
-          <div className="layoutA">
-          <Layout/>
-          </div>
-          
+          <About />
         </div>
-         <div className="contactM">
-          <Contant/>
+        <div className="skillsM">
+          <Skills />
+
+
         </div>
-        
+        <div className="contactM">
+          <Contant />
+        </div>
+
       </div>
     </div>
   );

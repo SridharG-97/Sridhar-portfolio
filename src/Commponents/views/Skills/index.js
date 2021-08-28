@@ -4,88 +4,59 @@ import { Element } from "react-scroll";
 import LinearProgressWithLabel from "@material-ui/core/LinearProgress";
 import { DiJavascript,DiHtml5,DiCss3,DiReact } from "react-icons/di";
 import { Card } from "react-bootstrap";
-
+import Layout from "../../Layout/index"
 
 function index() {
   return (
     <Element id="skills" className="skillE">
       <div className="skill-title">
-        <h1>Skill Set</h1>
+        <h1>React Skills </h1>
       </div>
-
+     
       <div className="skillsetM">
-        {/* html */}
-        <div className="skillpage1" sm="6">
-          <Card className="cardskill1" sm="12">
-            <Card.Body className="cardBody1">
-              <div className="skill-Html">
-                <div className="html-logo">
-                  <DiHtml5
-                    className="Icons-Html"
-                    style={{ fontSize: "50px",color:"white" }}
-                  />
-                </div>
+        {/* REACT */}
+       
 
-                <div className="title1">
-                  <p> HTML</p>
-                </div>
-              </div>
-              <div className="skill-Container-slider1">
-                <div className="linebar">
-                  <LinearProgressWithLabel className="bar1" variant="determinate" value={90} />
-                </div>
-                <div className="percent">
-                  <p>90%</p>
-                </div>
-              </div>
-            </Card.Body>
-          </Card>
-        </div>
+               {/* Basic */}
 
-        {/*  css */}
 
         <div className="skillpage2">
           <Card className="cardskill1">
             <Card.Body className="cardBody1">
               <div className="skill-Html">
                 <div className="html-logo">
-                  <DiCss3
-                    className="Icons-Html"
-                    style={{ fontSize: "50px",color:"white" }}
-                  />
+                
                 </div>
 
                 <div className="title1">
-                  <p> CSS</p>
+                  <p>React - Basics</p>
                 </div>
               </div>
               <div className="skill-Container-slider1">
                 <div className="linebar">
-                  <LinearProgressWithLabel variant="determinate" value={90} />
+                  <LinearProgressWithLabel variant="determinate" value={80} />
                 </div>
                 <div className="percent">
-                  <p>90%</p>
+                  <p>80%</p>
                 </div>
               </div>
             </Card.Body>
           </Card>
         </div>
 
-        {/* JAVASCRIPT */}
+                {/* axios */}
+
 
         <div className="skillpage2">
           <Card className="cardskill1">
             <Card.Body className="cardBody1">
               <div className="skill-Html">
                 <div className="html-logo">
-                  <DiJavascript
-                    className="Icons-Html"
-                    style={{ fontSize: "50px",color:"white" }}
-                  />
+                 
                 </div>
 
                 <div className="title1">
-                  <p> JS</p>
+                  <p> React Hooks</p>
                 </div>
               </div>
               <div className="skill-Container-slider1">
@@ -99,34 +70,57 @@ function index() {
             </Card.Body>
           </Card>
         </div>
-
-        {/*   React */}
         <div className="skillpage2">
           <Card className="cardskill1">
             <Card.Body className="cardBody1">
               <div className="skill-Html">
                 <div className="html-logo">
-                  <DiReact
-                    className="Icons-Html"
-                    style={{ fontSize: "50px",color:"white" }}
-                  />
+                 
                 </div>
 
                 <div className="title1">
-                  <p> React</p>
+                  <p> AXIOS</p>
                 </div>
               </div>
               <div className="skill-Container-slider1">
                 <div className="linebar">
-                  <LinearProgressWithLabel variant="determinate" value={65} />
+                  <LinearProgressWithLabel variant="determinate" value={70} />
                 </div>
                 <div className="percent">
-                  <p>65%</p>
+                  <p>70%</p>
                 </div>
               </div>
             </Card.Body>
           </Card>
         </div>
+
+        <div className="skillpage2">
+          <Card className="cardskill1">
+            <Card.Body className="cardBody1">
+              <div className="skill-Html">
+                <div className="html-logo">
+                 
+                </div>
+
+                <div className="title1">
+                  <p> React <br/> Bootstrap</p>
+                </div>
+              </div>
+              <div className="skill-Container-slider1">
+                <div className="linebar">
+                  <LinearProgressWithLabel variant="determinate" value={80} />
+                </div>
+                <div className="percent">
+                  <p>80%</p>
+                </div>
+              </div>
+            </Card.Body>
+          </Card>
+        </div>
+
+       
+      
+        
       </div>
     </Element>
   );

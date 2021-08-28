@@ -26,9 +26,9 @@
   color: #0077b5;
   box-shadow: linear-gradient(0deg, rgb(116, 55, 55), transparent 50%) bottom;
 }
-.facebook:hover {
+.github:hover {
   font-size: 35px;
-  color: #3b5998;
+  color: #4078c0;
   box-shadow: linear-gradient(0deg, rgb(116, 55, 55), transparent 50%) bottom;
 }
 .insta:hover {

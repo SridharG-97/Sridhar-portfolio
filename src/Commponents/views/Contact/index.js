@@ -3,6 +3,7 @@ import "./index.css";
 import { Card } from "react-bootstrap";
 import { FaFacebook,FaLinkedin } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
+import {FaGithubSquare} from "react-icons/fa"
 import { Element } from "react-scroll";
 
 function index() {
@@ -26,10 +27,8 @@ function index() {
             <p>Email : sridhar11chandra@gmail.com</p>
            
             <p>
-              gitlab :{" "}
-              <Card.Link href="https://gitlab.com/">
-               @sridhar11chandra
-              </Card.Link>
+             Mobile :
+             874892297
             </p>
           </Card.Text>
         </Card.Body>
@@ -43,15 +42,13 @@ function index() {
             
           }}
         >
-           <Card.Link  className="link1"  style={{marginRight:"35px",justifyContent:"space-around",flex:"0.5",color:"white"}}  href="#">
+           <Card.Link  className="link1"  style={{justifyContent:"space-around",flex:"0.5",color:"white"}}  href="https://www.linkedin.com/in/sridhar-vip-4751ab20b/ ">
             <FaLinkedin className="linkedin"/>
           </Card.Link>
-          <Card.Link className="link2" style={{display:"flex", marginRight:"45px", justifyContent:"space-around",flex:"1",color:"white"}} href="#">
-            <FaFacebook  className="facebook"/>
+          <Card.Link className="link2" style={{display:"flex", marginLeft:"45px", justifyContent:"space-around",flex:"1",color:"white"}} href="#">
+            <FaGithubSquare  className="github"/>
           </Card.Link>
-          <Card.Link  className="link3"  style={{justifyContent:"space-around",flex:"0.5",color:"white"}}  href="#">
-            <GrInstagram  className="insta"/>
-          </Card.Link>
+         
         </Card.Footer>
       </Card>
     </Element>

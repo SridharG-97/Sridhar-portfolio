@@ -5,12 +5,13 @@
    text-align: center;
    justify-content: center;
    height: 100vh;
-   background-color: thistle;
+   background-color: #1b1e21;
+   color: white;
 }
 .logo{
    display: flex;
    flex-direction: column;
-   flex: 0.2;
+   flex: 0.3;
    justify-content: center;
    text-align: center;
    align-items: center;
@@ -56,15 +57,7 @@ flex-direction: column;
 }
 
 @media screen and (min-width:360px)and (max-width: 680px)  {
-   /* .Container{
-    display: flex;
-    align-items: center;
-    background-color: lightcoral;
-    flex-direction: row;
-    position: fixed;
-    
-  
-   } */
+   
    .Container {
       display: flex;
       flex-direction: row;
@@ -74,7 +67,7 @@ flex-direction: column;
       top: 0px;
       height: 10vh;
       width: 100vw;
-      background-color: thistle;
+      background-color: #1b1e21;
       
    }
    .logo{
@@ -85,7 +78,6 @@ flex-direction: column;
    }
    .logo>img{
       flex: 0.3;
-      padding-right:10px;
 
    }
    .logo>h1{

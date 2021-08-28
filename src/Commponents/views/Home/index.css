@@ -2,7 +2,6 @@
    background-color: #5d6a80;
    height: 100%;
    width: 100%;
-   background-image: url(../../assets/home3.jpeg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -27,7 +26,7 @@
 }
 .homepage>h1{
 
-  color: #a38d52;
+  color: white;
    
 }
 .homepage>p{
@@ -37,17 +36,31 @@
    font-weight: 500;
 }
 
+.btn-Contact{
+   height: 40px;
+   background-color:cadetblue;
+   border-style:solid;
+   border-radius:5px;
+   color:white;
+   justify-content:center;
+   align-items:center;
+
+}
+.btn-Contact:hover{
+   background-color:blue;
+}
+
 @media screen and (min-width:360px)and (max-width: 1024px){
    .homeE{
       background-color: #5d6a80;
       height: 100%;
-      width: 100vw;
+      width: 100%;
       background-position: center;
       background-repeat: no-repeat;
-   background-attachment:fixed;
       background-size: cover;
-   
     display: flex;
+    object-fit: contain;
+    
     
    
    }
