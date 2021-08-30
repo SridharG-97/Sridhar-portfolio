@@ -15,13 +15,14 @@
    justify-content: center;
    text-align: center;
    align-items: center;
-   
+   cursor: pointer;
 }
 .logo>h1{
    display: flex;
    justify-content: center;
    text-align: center;
    font-size: 18px;
+   cursor: pointer;
 }
 .logo>img{
    border-radius:30% 30% 20% 50%;
@@ -83,6 +84,7 @@ flex-direction: column;
    .logo>h1{
       flex: 0.5;
       font-size: 12px;
+      cursor: pointer;
    }
    .Content-side{
       display: flex;
