@@ -75,7 +75,7 @@ flex-direction: column;
       display: flex;
       flex-direction: row;
       flex: 0.3;
-      
+      font-size: 8px;
    }
    .logo>img{
       flex: 0.3;
@@ -83,7 +83,7 @@ flex-direction: column;
    }
    .logo>h1{
       flex: 0.5;
-      font-size: 12px;
+      font-size: 8px;
       cursor: pointer;
    }
    .Content-side{
