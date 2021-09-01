@@ -1,6 +1,7 @@
 .App{
   display: flex;
   flex-direction: row;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 .Mside{
   flex:1 ;
