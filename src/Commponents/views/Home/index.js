@@ -13,7 +13,7 @@ function index({ children }) {
 
             <h1>Hai. I am <span> Sridhar</span></h1>
             <p>I am a React-Developer</p>
-            <a href="https://api.whatsapp.com/send?phone=91874892297">
+            <a href="https://api.whatsapp.com/send?phone=918754892297">
                <Button className="btn-Contact">Contact Me</Button></a>
          </div>
 
