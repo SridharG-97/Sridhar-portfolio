@@ -27,7 +27,7 @@ function Index() {
       });
     }
     if (!inView) {
-      animation.start({ x: "70vw" })
+      animation.start({ x: "10vw" })
     }
 
   }, [inView])
