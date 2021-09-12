@@ -8,12 +8,12 @@ import Home from "../views/Home/index";
 function index() {
   return (
     <div className="Container"  >
-      <div className="logo">
+       <div className="logo">
         <img src={logo} alt="image" />
         <Link to="home" smooth={true} duration={1200}>
         <h1>Sridhar</h1>
         </Link>
-      </div>
+      </div>  
    
    
       <div className="Content-side" >

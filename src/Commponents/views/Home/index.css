@@ -1,3 +1,13 @@
+.home{
+   background-color: #5d6a80;
+   height: 100%;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ display: flex;
+ object-fit: contain;
+}
 .homeE{
    background-color: #5d6a80;
    height: 100%;
@@ -8,8 +18,8 @@
  display: flex;
  object-fit: contain;
  
-
 }
+
 .homepage{
    color: wheat;
    display: flex;
@@ -18,9 +28,9 @@
    align-items: center;
    justify-content: center;
    flex: 1;
-
-
+   
 }
+
 .homepage>h1>span{
    color: white;
 }
@@ -60,9 +70,7 @@
       background-size: cover;
     display: flex;
     object-fit: contain;
-    
-    
-   
    }
+ 
 
 }

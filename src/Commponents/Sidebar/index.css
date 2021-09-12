@@ -7,6 +7,12 @@
    height: 100vh;
    background-color: #1b1e21;
    color: white;
+   animation: navbar 2s ease-in-out;
+}
+@keyframes navbar {
+   0%{
+      transform:translateX(-90%);
+   }
 }
 .logo{
    display: flex;
@@ -69,7 +75,13 @@ flex-direction: column;
       height: 10vh;
       width: 100vw;
       background-color: #1b1e21;
-      
+      animation: navbar 2s ease-in-out;
+      animation-play-state: running;
+   }
+   @keyframes navbar {
+      0%{
+         transform:translateY(-100%);
+      }
    }
    .logo{
       display: flex;

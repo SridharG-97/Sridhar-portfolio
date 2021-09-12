@@ -1,31 +1,61 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./index.css";
 import { Element } from "react-scroll";
 import LinearProgressWithLabel from "@material-ui/core/LinearProgress";
-import { DiJavascript,DiHtml5,DiCss3,DiReact } from "react-icons/di";
+import { DiJavascript, DiHtml5, DiCss3, DiReact } from "react-icons/di";
 import { Card } from "react-bootstrap";
-import Layout from "../../Layout/index"
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
-function index() {
+
+
+function Index() {
+
+  const { ref, inView } = useInView({
+    threshold: 0.1,
+
+  });
+  const animation = useAnimation();
+  useEffect(() => {
+    console.log("sss", inView);
+    if (inView) {
+      animation.start({
+        x: 0,
+        transition: {
+          type: "spring", duration: 5 , bounce: 0.3, ease: "easeOut",
+        }
+      });
+    }
+    if (!inView) {
+      animation.start({ x: "70vw" })
+    }
+
+  }, [inView])
+
+
+
   return (
     <Element id="skills" className="skillE">
       <div className="skill-title">
         <h1>React Skills </h1>
       </div>
-     
-      <div className="skillsetM">
-        {/* REACT */}
-       
 
-               {/* Basic */}
+      <div ref={ref} className="skillsetM"
+      >
+        
 
 
-        <div className="skillpage2">
+        {/* REACT -Basic */}
+
+
+        < motion.div className="skillpage2"
+          animate={animation}
+        >
           <Card className="cardskill1">
             <Card.Body className="cardBody1">
               <div className="skill-Html">
                 <div className="html-logo">
-                
+
                 </div>
 
                 <div className="title1">
@@ -42,17 +72,20 @@ function index() {
               </div>
             </Card.Body>
           </Card>
-        </div>
+        </motion.div>
 
-                {/* axios */}
+        {/* React Hooks */}
 
 
-        <div className="skillpage2">
+        <motion.div className="skillpage2"
+          animate={animation}
+
+        >
           <Card className="cardskill1">
             <Card.Body className="cardBody1">
               <div className="skill-Html">
                 <div className="html-logo">
-                 
+
                 </div>
 
                 <div className="title1">
@@ -69,13 +102,18 @@ function index() {
               </div>
             </Card.Body>
           </Card>
-        </div>
-        <div className="skillpage2">
+        </motion.div>
+
+        {/* AXIOS */}
+
+        <motion.div className="skillpage2"
+          animate={animation}
+        >
           <Card className="cardskill1">
             <Card.Body className="cardBody1">
               <div className="skill-Html">
                 <div className="html-logo">
-                 
+
                 </div>
 
                 <div className="title1">
@@ -92,18 +130,22 @@ function index() {
               </div>
             </Card.Body>
           </Card>
-        </div>
+        </motion.div>
 
-        <div className="skillpage2">
+        {/* React  Bootstrap */}
+
+        <motion.div className="skillpage2"
+          animate={animation}
+        >
           <Card className="cardskill1">
             <Card.Body className="cardBody1">
               <div className="skill-Html">
                 <div className="html-logo">
-                 
+
                 </div>
 
                 <div className="title1">
-                  <p> React <br/> Bootstrap</p>
+                  <p> React <br /> Bootstrap</p>
                 </div>
               </div>
               <div className="skill-Container-slider1">
@@ -116,14 +158,15 @@ function index() {
               </div>
             </Card.Body>
           </Card>
-        </div>
+        </motion.div>
 
-       
-      
-        
+
+
+
       </div>
+
     </Element>
   );
 }
 
-export default index;
+export default Index;
