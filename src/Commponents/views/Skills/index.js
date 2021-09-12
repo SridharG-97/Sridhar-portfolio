@@ -22,12 +22,15 @@ function Index() {
       animation.start({
         x: 0,
         transition: {
-          type: "spring", duration: 5 , bounce: 0.3, ease: "easeOut",
-        }
+          type: "spring", duration: 2 , bounce: 0.1, ease: "easeOut",
+        },
+        display:"flex"
       });
+    }else{
+      animation.stop({x:0})
     }
     if (!inView) {
-      animation.start({ x: "10vw" })
+      animation.start({ x: "-15vw" ,})
     }
 
   }, [inView])
