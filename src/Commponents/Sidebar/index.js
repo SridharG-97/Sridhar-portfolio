@@ -11,7 +11,7 @@ function index() {
        <div className="logo">
         <img src={logo} alt="image" />
         <Link to="home" smooth={true} duration={1200}>
-        <h1>Sridhar</h1>
+        <h1 style={{cursor:"pointer"}}>Sridhar</h1>
         </Link>
       </div>  
    

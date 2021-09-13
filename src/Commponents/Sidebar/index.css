@@ -21,20 +21,23 @@
    justify-content: center;
    text-align: center;
    align-items: center;
-   cursor: pointer;
+
 }
 .logo>h1{
    display: flex;
    justify-content: center;
    text-align: center;
+  
    font-size: 18px;
-   cursor: pointer;
+
+align-items: center;
+  
 }
 .logo>img{
    border-radius:30% 30% 20% 50%;
    width: 30%;
    justify-content: center;
-
+   cursor: pointer;
    
 
 }
