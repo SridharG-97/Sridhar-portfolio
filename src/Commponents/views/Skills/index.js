@@ -12,7 +12,7 @@ import { useInView } from "react-intersection-observer";
 function Index() {
 
   const { ref, inView } = useInView({
-    threshold: 0.1,
+    threshold: 0.2,
 
   });
   const animation = useAnimation();
@@ -22,7 +22,7 @@ function Index() {
       animation.start({
         x: 0,
         transition: {
-          type: "spring", duration: 2 , bounce: 0.1, ease: "easeOut",
+          type: "spring", duration: 1.5 , bounce: 0.5, ease: "easeOut",
         },
         display:"flex"
       });
@@ -30,7 +30,7 @@ function Index() {
       animation.stop({x:0})
     }
     if (!inView) {
-      animation.start({ x: "-15vw" ,})
+      animation.start({ x: "-20vw" ,})
     }
 
   }, [inView])
